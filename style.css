@@ -1,5 +1,6 @@
 :root {
     --custom-blue:#1992D3;
+    --custom-gray: rgb(220, 219, 219);
 }
 
 * {
@@ -72,12 +73,14 @@ a {
     grid-column: 2 / 2;
     grid-row: 1 / 2;
     align-items: center;
+    padding-top: 10px;
 }
 
 #header input {
-    border: 1px solid rgb(242, 242, 242);
+    border: 1px solid var(--custom-gray);
+    height: 25px;
     border-radius: 10px;
-    background-color: rgb(242, 242, 242);
+    background-color: var(--custom-gray);
     height: 25px;
 }
 
@@ -115,6 +118,11 @@ a {
     padding: 0 40px;
 }
 
+#nav-header-wrapper {
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+    padding-bottom: 20px;
+}
+
 #nav-button-container {
     display: flex;
     justify-content: space-between;
@@ -144,7 +152,6 @@ a {
     column-gap: 20px;
     align-items: center;
 }
-
 
 
 #welcome p {
