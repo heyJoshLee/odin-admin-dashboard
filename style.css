@@ -1,6 +1,9 @@
 * {
-    border: 1px solid red;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+    margin: 0;
 }
 
 ul {
@@ -23,15 +26,36 @@ a {
     background-color: #1992D3;
     grid-row: 1 / 6;
     color: white;
-    font-weight: bold;
+    font-weight: 600;
     padding: 20px;
 }
 
+#sidebar ul img {
+    width: 20px;
+    filter: invert(99%) sepia(0%) saturate(7497%) hue-rotate(177deg) brightness(101%) contrast(103%);
+    margin-right: 15px;
+} 
+
+#sidebar ul li {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+#sidebar ul {
+    margin-top: 40px;
+}
+
+#sidebar ul:nth-child(3) {
+    margin-top: 60px;
+}
+
 #logo-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
 }
 
 #logo-container img {
     width: 50px;
+    filter: invert(99%) sepia(0%) saturate(7497%) hue-rotate(177deg) brightness(101%) contrast(103%);
 }
