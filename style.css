@@ -1,3 +1,7 @@
+:root {
+    --custom-blue:#1992D3;
+}
+
 * {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
@@ -23,7 +27,7 @@ a {
 }
 
 #sidebar {
-    background-color: #1992D3;
+    background-color: var(--custom-blue);
     grid-row: 1 / 6;
     color: white;
     font-weight: 600;
@@ -100,7 +104,54 @@ a {
     text-align: center;
 }
 
-#profile-picture {
+.profile-picture {
     height: 40px;
     width: 50px;
+}
+
+#nav {
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    padding: 0 40px;
+}
+
+#nav-button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.button {
+    background-color: var(--custom-blue);
+    display: inline-block;
+    color: white;
+    box-sizing: border-box;
+    padding: 8px 3px;
+    border-radius: 14px;
+    width: 100px;
+    text-align: center;
+    font-size: 14px;;
+}
+
+#nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#welcome {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    column-gap: 20px;
+    align-items: center;
+}
+
+
+
+#welcome p {
+    font-size: 12px;
+}
+
+#welcome-user-name {
+    grid-column: 2 / 2;
+    font-weight: 600;
 }
