@@ -23,3 +23,5 @@ Image and Icons:
 <a href="https://www.flaticon.com/free-icons/alert" title="alert icons">Alert icons created by Pixel perfect - Flaticon</a>
 
 <a href="https://www.flaticon.com/free-icons/layout" title="layout icons">Layout icons created by daniah saga - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/search" title="search icons">Search icons created by Pixel perfect - Flaticon</a>
