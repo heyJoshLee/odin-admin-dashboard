@@ -2,6 +2,8 @@
     --custom-blue:#1992D3;
     --custom-gray: rgb(220, 219, 219);
     --custom-yellow: #F0B329;
+    --soft-border-radius: 5px;
+    --gray-text: #8f9092;
 }
 
 * {
@@ -165,9 +167,15 @@ a {
 }
 
 #project-section {
-    padding: 20px;
+    padding:  0 20px;
     gap: 10px;
 }
+
+#project-container,
+#announcement-container {
+    margin-top: 20px;
+}
+
 
 #project-section > h1 {
     font-size: 18px;
@@ -178,22 +186,40 @@ a {
     display: grid;
     grid-template-columns: 5fr 2fr;
     background-color: #E2E8F0;
+    padding-top: 20px;
+}
+
+#project-container-heading h1, 
+#announcements-heading h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .project {
     box-shadow: 0px 10px 30px 1px rgba(0, 0, 0, 0.1);
     border-left: 7px solid var(--custom-yellow);
-    border-radius: 5px;
-    padding: 20px;
+    border-radius: var(--soft-border-radius);
+    padding: 20px 20px 0 20px;
     background-color: white;
-    height: 100px;
-    position: relative;
-
+    height: 150px;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
 }
 
 .project-title {
     font-size: 14px;
     font-weight: 600;
+}
+
+.project-description-container {
+    overflow: hidden;
+}
+
+.project-description {
+    color: var(--gray-text);
+    font-size: 12px;
+
 }
 
 #project-container {
@@ -205,7 +231,6 @@ a {
 
 .project-button-container {
     text-align: right;
-    position: absolute;
     right: 0;
     bottom: 0;
     margin-right: 20px;
@@ -219,3 +244,28 @@ a {
 .project-button-container img {
     width: 20px;
 }
+
+#announcement-container {
+    background-color: snow;
+    padding: 10px 25px;
+    border-radius: var(--soft-border-radius);
+}
+
+.announcement {
+}
+
+.announcement + .announcement {
+    border-top: 1px solid var(--custom-gray);
+}
+
+.announcement-title {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.announcement-body {
+    font-size: 10px;
+    color: var(--gray-text);
+    margin-top: -10px;
+}
+
