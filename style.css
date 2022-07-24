@@ -1,6 +1,7 @@
 :root {
     --custom-blue:#1992D3;
     --custom-gray: rgb(220, 219, 219);
+    --custom-yellow: #F0B329;
 }
 
 * {
@@ -161,4 +162,60 @@ a {
 #welcome-user-name {
     grid-column: 2 / 2;
     font-weight: 600;
+}
+
+#project-section {
+    padding: 20px;
+    gap: 10px;
+}
+
+#project-section > h1 {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+#project-container-announcements-wrapper {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    background-color: #E2E8F0;
+}
+
+.project {
+    box-shadow: 0px 10px 30px 1px rgba(0, 0, 0, 0.1);
+    border-left: 7px solid var(--custom-yellow);
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+    height: 100px;
+    position: relative;
+
+}
+
+.project-title {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#project-container {
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.project-button-container {
+    text-align: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 20px;
+}
+
+.project-button-container ul {
+    display: flex;
+    gap: 20px;
+}
+
+.project-button-container img {
+    width: 20px;
 }

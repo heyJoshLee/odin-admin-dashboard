@@ -25,3 +25,9 @@ Image and Icons:
 <a href="https://www.flaticon.com/free-icons/layout" title="layout icons">Layout icons created by daniah saga - Flaticon</a>
 
 <a href="https://www.flaticon.com/free-icons/search" title="search icons">Search icons created by Pixel perfect - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/star" title="star icons">Star icons created by Pixel perfect - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/eye" title="eye icons">Eye icons created by Gregor Cresnar - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/method" title="method icons">Method icons created by Bharat Icons - Flaticon</a>
