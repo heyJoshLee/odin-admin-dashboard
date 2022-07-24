@@ -87,6 +87,7 @@ a {
     border-radius: 10px;
     background-color: var(--custom-gray);
     height: 25px;
+    padding: 5px 10px;
 }
 
 #header > img {
