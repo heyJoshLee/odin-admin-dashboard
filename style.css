@@ -230,10 +230,11 @@ a {
 }
 
 .project-button-container {
-    text-align: right;
     right: 0;
     bottom: 0;
     margin-right: 20px;
+    justify-self: end;
+
 }
 
 .project-button-container ul {
@@ -249,9 +250,6 @@ a {
     background-color: snow;
     padding: 10px 25px;
     border-radius: var(--soft-border-radius);
-}
-
-.announcement {
 }
 
 .announcement + .announcement {
